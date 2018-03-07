@@ -1,6 +1,6 @@
 {
   "name": "deep-child-element-count",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ParentNode.childElementCount but including all nested children",
   "main": "index.js",
   "scripts": {
