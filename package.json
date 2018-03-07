@@ -1,0 +1,30 @@
+{
+  "name": "deep-child-element-count",
+  "version": "0.0.0",
+  "description": "childElementCount but including all nested children",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && browserify test/*.js | tape-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxGfeller/deep-child-element-count.git"
+  },
+  "keywords": [
+    "dom",
+    "childelementcount",
+    "deep"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/deep-child-element-count/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/deep-child-element-count#readme",
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "standard": "^11.0.0",
+    "tape": "^4.9.0",
+    "tape-run": "^3.0.4"
+  }
+}
