@@ -1,7 +1,7 @@
 {
   "name": "deep-child-element-count",
   "version": "0.0.0",
-  "description": "childElementCount but including all nested children",
+  "description": "ParentNode.childElementCount but including all nested children",
   "main": "index.js",
   "scripts": {
     "test": "standard && browserify test/*.js | tape-run"
